@@ -1,0 +1,10 @@
+DOM
+
+1.SELECT html ELEMENT USING DOM.
+
+getElementById()
+getElementsByClassName()
+getElementsByName()
+getElementsByTageName()
+QuerrySelector()
+QuerrySelectorAll()

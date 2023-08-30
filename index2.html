@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM form validation</title>
+    <link rel="stylesheet" href="css/style2.css" />
+  </head>
+  <body>
+    <form action="" method="post" ,id="Form">
+      <div class="container">
+        <h2>Registration Form</h2>
+
+        <div class="form-control">
+          <label for="UserName">UserName</label>
+          <input type="text" id="UserName" placeholder="enter your UserName" />
+          <small><br />error message!</small>
+        </div>
+
+        <div class="form-control">
+          <label for="E-mail">E-mail</label>
+          <input type="email" id="E-mail" placeholder="enter your E-mail" />
+          <small><br />error message!</small>
+        </div>
+
+        <div class="form-control">
+          <label for="Password">Password</label>
+          <input
+            type="password"
+            id="Password"
+            placeholder="enter your password"
+          />
+          <small>error message!</small>
+        </div>
+
+        <div class="form-control">
+          <label for="Re-Password">Confirm-Password</label>
+          <input
+            type="password"
+            id="Re-Password"
+            placeholder="Re Type-Password"
+          />
+          <small>error message!</small>
+        </div>
+
+        <button id="btn">Submit</button>
+      </div>
+    </form>
+
+    <script src="js/index2.js"></script>
+  </body>
+</html>
